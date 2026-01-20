@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <tittle>Latihan Form dan Tabel</tittle>
+    </head>
+    <body>
+        <h1>Latihan Form dan Tabel</h1>
+        <form action="" method="POST">
+            <table>
+            <tr>
+                <td>Nama depan: </td>
+                <td><input type="text" name="first_name" size="50"></td>
+            </tr>
+            <tr>
+                <td>Nama belakang: </td>
+                <td><input type="text" name="first_name" size="50"></td>
+            </tr>
+            <tr>
+                <td>Alamat: </td>
+                <td> <textarea name="alamat" cols="50" rows="7"></textarea></td>
+            </tr>
+            <tr>
+                <td>Tanggal lahir: </td>
+                <td> <input type="date" name="tanggal"></td>
+            </tr>
+            <tr>
+                <td>Berat badan, Tinggi badan: </td>
+                <td><input type="number" name="berat[]">kg<br>
+                    <input type="number" name="tinggi[]">cm</td>
+            </tr>
+            <tr>
+                <td>Warna favorit: </td>
+                <td><input type="color" name="warna"></td>
+            </tr>
+            <tr>
+                <td>Username: </td>
+                <td><input type="username" name="contoh@email.com"></td>
+            </tr>
+            <tr>
+                <td>Password: </td>
+                <td><input type="password" name="password"></td>
+            </tr>
+            ><tr>
+                <td>Hobby: </td>
+                <td><input type="checkbox" name="hobby[]"> Membaca <br>
+                <input type="checkbox" name="hobby[]"> Bersepeda <br>
+                <input type="checkbox" name="hobby[]"> Bermain Game <br>
+                <input type="checkbox" name="hobby[]"> Berkebun <br></td>
+            </tr>
+            <tr>
+                <td>Jenis kelamin: </td>
+                <td><input type="radio" name="jenis[]"> Laki-laki<br>
+                <input type="radio" name="jenis[]"> Perempuan<br> 
+                <input type="radio" name="jenis[]"> Rahasia<br></td>
+            </tr>
+            <tr>
+                <td>Kota asal: </td>
+                <td><select name="Kota_asal">
+                <option value="Kediri">Kediri</option>
+                <option value="Malang">Malang</option>
+                <option value="Batu">Batu</option>
+                <option value="Surabaya">Surabaya</option>
+            </select> <br></td>
+            </tr>
+            <tr>
+                <td>Upload gambar: </td>
+                <td><input type="file" name="file"><br></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value="KLIK ME!" onclick="alert('Hallo')">
+                    <input type="submit" value="KIRIM"><br> <!--button-->
+                    <input type="reset" value="RESET"><br></td>
+            </tr>
+
+            </table>
+        </form>
+    </body>
+</html>
